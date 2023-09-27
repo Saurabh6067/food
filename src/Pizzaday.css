@@ -1,0 +1,31 @@
+.pizzaday-con{
+    margin-top: 180px;
+}
+.pizzadaycard{
+    border: none !important;
+    /* background-color: rgb(253, 239, 218) !important; */
+    box-shadow: 5px 5px 5px silver;
+    /* display:flex;
+    flex-wrap: wrap; */
+
+}
+.pizza1{
+    text-align: center;
+    font-size: 2.5vw;
+}
+.starcolor{
+    color: rgb(241, 241, 7);
+    /* padding: 0px auto; */
+}
+.star{
+    text-align: center;
+    /* color: rgb(221, 216, 216); */
+
+}
+
+/* burgerking  */
+.burgerrow{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

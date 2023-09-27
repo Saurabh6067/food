@@ -1,0 +1,63 @@
+.order-card-con{
+    margin-top: 150px;
+}
+.order-card-sec-2{
+    /* margin-top: 3vw; */
+    padding-top: 3vw;
+}
+.card-shadow{
+    box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.22), 1px 0px 0px 0px rgba(0,0,0,0.22), 1px 2px 0px 0px rgba(0,0,0,0.22), 2px 1px 0px 0px rgba(0,0,0,0.22), 2px 3px 0px 0px rgba(0,0,0,0.22), 3px 2px 0px 0px rgba(0,0,0,0.22), 3px 4px 0px 0px rgba(0,0,0,0.22), 4px 3px 0px 0px rgba(0,0,0,0.22), 4px 5px 0px 0px rgba(0,0,0,0.22), 5px 4px 0px 0px rgba(0,0,0,0.22), 5px 6px 0px 0px rgba(0,0,0,0.22), 6px 5px 0px 0px rgba(0,0,0,0.22), 6px 7px 0px 0px rgba(0,0,0,0.22), 7px 6px 0px 0px rgba(0,0,0,0.22), 7px 8px 0px 0px rgba(0,0,0,0.22), 8px 7px 0px 0px rgba(0,0,0,0.22);
+}
+.text-pizza-day{
+    text-decoration: none;
+    font-size: 2.5vh;
+    color: black;
+}
+.Star{
+    font-size: 2.2vh;
+    color: black;
+}
+.card-title-pd{
+    font-size: 5vw;
+}
+.zoom:hover{
+    animation-name: zoom;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+
+}
+@keyframes zoom{
+    0%{
+        transform: scale(1);
+
+    }
+    50%{
+        transform: scale(1.2);
+
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.minimiz:hover{
+    animation-name: minimize;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+
+}
+@keyframes minimiz{
+    0%{
+        transform: scale(1);
+
+    }
+    50%{
+        transform: scale(0.8);
+
+    }
+    100%{
+        transform: scale(1);
+    }
+}
